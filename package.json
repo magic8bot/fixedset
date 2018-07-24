@@ -1,0 +1,19 @@
+{
+  "name": "@magic8bot/fixedset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "release": "npm run build && npm publish --access public",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magic8bot/fixedset.git"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  }
+}
