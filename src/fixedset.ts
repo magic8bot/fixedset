@@ -3,7 +3,7 @@ const setSymbol = Symbol.for('set')
 export class FixedSet<T> {
   private [setSymbol]: Set<T>
 
-  constructor(private readonly setSize: number, ...values: T[]) {
+  constructor(private readonly setSize: number, values?: T[]) {
     this[setSymbol] = new Set(values)
   }
 
